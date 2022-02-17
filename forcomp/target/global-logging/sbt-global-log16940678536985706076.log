@@ -1,0 +1,204 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Gustavo\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Gustavo\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.2 (Oracle Corporation Java 17.0.1)
+[debug]       Load.loadUnit: plugins took 1119.9933ms
+[debug]       Load.loadUnit: defsScala took 0.9338ms
+[debug] [Loading] Scanning directory C:\Users\Gustavo\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Gustavo\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 208.3575 ms
+[debug]           Load.resolveProject(global-plugins) took 153.2942ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Gustavo\.sbt\1.0\plugins, plugins: List(<none>))) took 420.7121ms
+[debug] [Loading] Done in C:\Users\Gustavo\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 512.2085ms
+[debug]       Load.loadUnit: cleanEvalClasses took 1.4921ms
+[debug]     Load.loadUnit(file:/C:/Users/Gustavo/.sbt/1.0/plugins/, ...) took 1682.6863ms
+[debug]   Load.apply: load took 2441.9827ms
+[debug]   Load.apply: resolveProjects took 81.0512ms
+[debug]   Load.apply: finalTransforms took 266.2128ms
+[debug]   Load.apply: config.delegates took 28.5193ms
+[debug]   Load.apply: Def.make(settings)... took 3035.4299ms
+[debug]   Load.apply: structureIndex took 683.3402ms
+[debug]   Load.apply: mkStreams took 4.1401ms
+[info] loading global plugins from C:\Users\Gustavo\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 19986.3308ms
+[debug]           Load.loadUnit: plugins took 259.173ms
+[debug]           Load.loadUnit: defsScala took 0.0242ms
+[debug] [Loading] Scanning directory C:\Proyectos Scala\forcomp\project
+[debug]             Load.loadUnit: mkEval took 115.6388ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Proyectos Scala\forcomp\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.7468 ms
+[info] loading settings for project forcomp-build from buildSettings.sbt,plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(forcomp-build) took 12.4387ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id forcomp-build, base: C:\Proyectos Scala\forcomp\project, plugins: List(<none>))) took 23.659ms
+[debug] [Loading] Done in C:\Proyectos Scala\forcomp\project, returning: (forcomp-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 33214.4174ms
+[debug]           Load.loadUnit: cleanEvalClasses took 45.5994ms
+[debug]         Load.loadUnit(file:/C:/Proyectos%20Scala/forcomp/project/, ...) took 33523.3218ms
+[debug]       Load.apply: load took 33550.8464ms
+[debug]       Load.apply: resolveProjects took 0.3575ms
+[debug]       Load.apply: finalTransforms took 277.38ms
+[debug]       Load.apply: config.delegates took 1.6082ms
+[debug]       Load.apply: Def.make(settings)... took 711.3292ms
+[debug]       Load.apply: structureIndex took 137.8976ms
+[debug]       Load.apply: mkStreams took 0.0056ms
+[info] loading project definition from C:\Proyectos Scala\forcomp\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[info] compiling 2 Scala sources to C:\Proyectos Scala\forcomp\project\target\scala-2.12\sbt-1.0\classes ...
+[warn] C:\Proyectos Scala\forcomp\project\MOOCSettings.scala:35:23: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     parallelExecution in Test := false,
+[warn]                       ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:38:17: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       (scalafix in Compile).toTask(" --check").dependsOn(compile in Compile)
+[warn]                 ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:38:66: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       (scalafix in Compile).toTask(" --check").dependsOn(compile in Compile)
+[warn]                                                                  ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:44:11: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     (test in Test) := {
+[warn]           ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:46:13: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       (test in Test).value
+[warn]             ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:53:18: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     connectInput in run := true,
+[warn]                  ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:69:50: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       val binaries = (packageBinWithoutResources in Compile).value
+[warn]                                                  ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:68:41: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       val sources = (packageSourcesOnly in Compile).value
+[warn]                                         ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:70:10: method zip in object IO is deprecated (since 1.3.2): Please specify whether to use a static timestamp
+[warn]       IO.zip(Seq(sources -> "sources.zip", binaries -> "binaries.jar"), submission)
+[warn]          ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:73:24: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     artifactClassifier in packageSourcesOnly := Some("sources"),
+[warn]                        ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:74:14: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     artifact in (Compile, packageBinWithoutResources) ~= (art => art.withName(art.name + "-without-resources"))
+[warn]              ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:81:17: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       (mappings in (Compile, packageBin)).value.filterNot { case (_, path) => relativePaths.contains(path) }
+[warn]                 ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:80:101: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]         (unmanagedResources in Compile).value.flatMap(Path.relativeTo((unmanagedResourceDirectories in Compile).value)(_))
+[warn]                                                                                                     ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:80:29: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]         (unmanagedResources in Compile).value.flatMap(Path.relativeTo((unmanagedResourceDirectories in Compile).value)(_))
+[warn]                             ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:133:37: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     val jar = (packageSubmissionZip in Compile).value
+[warn]                                     ^
+[warn] C:\Proyectos Scala\forcomp\project\StudentTasks.scala:149:37: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     val jar = (packageSubmissionZip in Compile).value
+[warn]                                     ^
+[warn] 16 warnings found
+[info] done compiling
+[debug]     Load.loadUnit: plugins took 100514.119ms
+[debug]     Load.loadUnit: defsScala took 0.0098ms
+[debug] [Loading] Scanning directory C:\Proyectos Scala\forcomp
+[debug]       Load.loadUnit: mkEval took 1.1794ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Proyectos Scala\forcomp, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(ch.epfl.lamp.StudentTasks), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(coursier.sbtcoursier.CoursierPlugin),Set(Atom(coursier.sbtcoursiershared.SbtCoursierShared)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixTestkitPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(coursier.sbtcoursiershared.SbtCoursierShared),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.MOOCSettings),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(ch.epfl.lamp.MOOCSettings)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(coursier.sbtcoursiershared.SbtCoursierShared),Set(Atom(coursier.sbtcoursier.CoursierPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scalafix.sbt.ScalafixPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(coursier.sbtcoursiershared.SbtCoursierShared))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,ch.epfl.lamp.StudentTasks,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,ch.epfl.lamp.MOOCSettings,sbt.plugins.JvmPlugin,coursier.sbtcoursiershared.SbtCoursierShared,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,scalafix.sbt.ScalafixPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin,coursier.sbtcoursier.CoursierPlugin)
+[debug] Plugins.deducer#function took 47.8331 ms
+[info] loading settings for project forcomp from assignment.sbt,build.sbt ...
+[debug]         Load.resolveProject(forcomp) took 2927.8184ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id forcomp, base: C:\Proyectos Scala\forcomp, plugins: List(<none>))) took 2983.3201ms
+[debug] [Loading] Done in C:\Proyectos Scala\forcomp, returning: (forcomp)
+[debug]     Load.loadUnit: loadedProjectsRaw took 15996.7234ms
+[debug]     Load.loadUnit: cleanEvalClasses took 34.2086ms
+[debug]   Load.loadUnit(file:/C:/Proyectos%20Scala/forcomp/, ...) took 116546.5758ms
+[debug] Load.apply: load took 116558.1807ms
+[debug] Load.apply: resolveProjects took 0.2996ms
+[debug] Load.apply: finalTransforms took 60.408ms
+[debug] Load.apply: config.delegates took 0.6475ms
+[debug] Load.apply: Def.make(settings)... took 486.8544ms
+[debug] Load.apply: structureIndex took 85.1291ms
+[debug] Load.apply: mkStreams took 0.0045ms
+[info] set current project to progfun1-forcomp (in build file:/C:/Proyectos%20Scala/forcomp/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 60873 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 60873, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to progfun1-forcomp (in build file:/C:/Proyectos%20Scala/forcomp/)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,6 @@
+[debug] > Exec(test InMemoryModel, None, None)
+[error] Expected whitespace character
+[error] Expected '/'
+[error] test InMemoryModel
+[error]      ^
+[debug] > Exec(idea-shell, None, None)

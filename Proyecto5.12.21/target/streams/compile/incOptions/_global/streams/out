@@ -1,0 +1,27 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	recursion2$userId.class
+[debug] 	Recursion.class
+[debug] 	hackerRank$.class
+[debug] 	recursion2$delayedInit$body.class
+[debug] 	Tests.class
+[debug] 	Combinaciones.class
+[debug] 	Combinaciones$delayedInit$body.class
+[debug] 	Mp$.class
+[debug] 	Tests$.class
+[debug] 	RecFun.class
+[debug] 	Recursion$delayedInit$body.class
+[debug] 	RecFun$delayedInit$body.class
+[debug] 	Recursion$.class
+[debug] 	recursion2.class
+[debug] 	Mp.class
+[debug] 	Combinaciones$.class
+[debug] 	Mp$delayedInit$body.class
+[debug] 	recursion2$Bomba.class
+[debug] 	recursion2$User.class
+[debug] 	RecFun$.class
+[debug] 	hackerRank.class
+[debug] 	recursion2$.class
+[debug] Removing the temporary directory used for backing up class files: C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes.bak

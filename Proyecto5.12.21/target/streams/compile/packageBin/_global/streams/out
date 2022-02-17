@@ -1,0 +1,49 @@
+[debug] Packaging C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\proyecto5-12-21_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	1er worsheet.sc
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\1er worsheet.sc
+[debug] 	Combinaciones$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Combinaciones$.class
+[debug] 	Combinaciones$delayedInit$body.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Combinaciones$delayedInit$body.class
+[debug] 	Combinaciones.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Combinaciones.class
+[debug] 	hackerRank$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\hackerRank$.class
+[debug] 	hackerRank.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\hackerRank.class
+[debug] 	Mp$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Mp$.class
+[debug] 	Mp$delayedInit$body.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Mp$delayedInit$body.class
+[debug] 	Mp.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Mp.class
+[debug] 	RecFun$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\RecFun$.class
+[debug] 	RecFun$delayedInit$body.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\RecFun$delayedInit$body.class
+[debug] 	RecFun.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\RecFun.class
+[debug] 	Recursion$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Recursion$.class
+[debug] 	Recursion$delayedInit$body.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Recursion$delayedInit$body.class
+[debug] 	Recursion.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Recursion.class
+[debug] 	recursion2$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2$.class
+[debug] 	recursion2$Bomba.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2$Bomba.class
+[debug] 	recursion2$delayedInit$body.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2$delayedInit$body.class
+[debug] 	recursion2$User.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2$User.class
+[debug] 	recursion2$userId.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2$userId.class
+[debug] 	recursion2.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\recursion2.class
+[debug] 	Tests$.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Tests$.class
+[debug] 	Tests.class
+[debug] 	  C:\Proyectos Scala\Proyecto5.12.21\target\scala-2.13\classes\Tests.class
+[debug] Done packaging.

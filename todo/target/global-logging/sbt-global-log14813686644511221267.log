@@ -1,0 +1,14 @@
+[debug] > Exec(testOnly InMemoryModel, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 14 Scala sources to C:\Proyectos Scala\todo\target\scala-3.0.0\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Proyectos Scala\todo\target\scala-3.0.0\test-classes ...
+[info] done compiling
+[info] Passed: Total 0, Failed 0, Errors 0, Passed 0
+[info] No tests to run for Test / testOnly
+[debug] Forcing garbage collection...
+[success] Total time: 77 s (01:17), completed 26 nov. 2021 17:36:52
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,18 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for munit.Framework produced 3 initial tasks for 3 tests.
+[debug]   Running TaskDef(todo.data.BijectionSuite, sbt.ForkMain$SubclassFingerscan@27abe2cd, false, [SuiteSelector])
+[debug]     Produced 0 nested tasks and 7 events.
+[debug]   Running TaskDef(todo.IdGeneratorSuite, sbt.ForkMain$SubclassFingerscan@5f5a92bb, false, [SuiteSelector])
+[debug]     Produced 0 nested tasks and 2 events.
+[debug]   Running TaskDef(todo.TodoSuite, sbt.ForkMain$SubclassFingerscan@6fdb1f78, false, [SuiteSelector])
+[debug]     Produced 0 nested tasks and 14 events.
+[debug] Summary for munit not available.
+[error] Failed: Total 23, Failed 6, Errors 0, Passed 17
+[debug] Passed tests:
+[debug] 	todo.data.BijectionSuite
+[debug] 	todo.IdGeneratorSuite
+[error] Failed tests:
+[error] 	todo.TodoSuite
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful

@@ -1,0 +1,14 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 16 Scala sources to C:\Proyectos Scala\todo\target\scala-3.0.0\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Proyectos Scala\todo\target\scala-3.0.0\test-classes ...
+[info] done compiling
+[error] Failed: Total 23, Failed 14, Errors 0, Passed 9
+[error] Failed tests:
+[error] 	todo.TodoSuite
+[debug] Forcing garbage collection...
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 55 s, completed 23 nov. 2021 21:19:01
+[debug] > Exec(idea-shell, None, None)
